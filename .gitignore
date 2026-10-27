@@ -1,0 +1,28 @@
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Testing and linting
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE and operating system
+.vscode/
+.DS_Store
+
+# Personal documents and generated outputs
+personal_data/
+private_data/
+outputs/
